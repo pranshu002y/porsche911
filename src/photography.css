@@ -1,0 +1,215 @@
+.about-1{
+    /* background-image: url("https://res.cloudinary.com/dpiatasuq/image/upload/v1692105539/oeAVipiAlKUYsLDFS8Dx2rGsvI_bpyjc1.jpg"); */
+    width: 100%;
+    border-radius: 10px;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .heading-about{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    min-height: 700px;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading-about span{
+    color: white;
+    font-size: 5em;
+
+  }
+
+  .heading-image{
+    width: 100%;
+    min-height: 500px;
+    background-color: black;
+    display: flex;
+justify-content: left;
+}
+.heading-image img{
+    width: 100%;
+    /* height: 300px; */
+    object-fit: contain;
+    /* border: 2px solid white; */
+    /* padding: 10px; */
+}
+.vide{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  /* justify-content: right; */
+  align-items:center;
+  background-color:black;
+  border: 2px solid white;
+  color: white;
+}
+.vide img{
+  width: 100%;
+  min-height: 300px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+
+.text{
+  position: relative;
+  /* font-size: 5rem; */
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  z-index: 1;
+  width: 100%;
+  height: 300px;
+
+}
+.text::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin:  top;
+  transition:transform 0.8s ease-in;
+
+}
+
+.text:hover::before{
+  transform: scaleX(1);
+  transform-origin:  top;
+  background-image: url("https://wallpaperaccess.com/full/329012.jpg");
+  background-size: contain;
+  opacity: 0.3;
+}
+
+
+
+.text-1{
+  position: relative;
+  /* font-size: 5rem; */
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  z-index: 1;
+  width: 100%;
+  height: 300px;
+
+}
+.text-1::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin:  top;
+  transition:transform 0.8s ease-in;
+
+}
+
+.text-1:hover::before{
+  transform: scaleX(1);
+  transform-origin:  top;
+  background-image: url("https://wallpaperaccess.com/full/329032.jpg");
+  background-size: contain;
+  opacity: 0.3;
+}
+
+.p5{
+  /* width: 100%; */
+  height: 600px;
+  object-fit: contain;
+  /* overflow: hidden; */
+  border:2px solid white;
+  padding: 10px;
+}
+
+
+.connect-1{
+  position: relative;
+  font-size: 5rem;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  z-index: 1;
+  width: 100%;
+  height: 300px;
+
+}
+.connect-1::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin:  top;
+  transition:transform 0.8s ease-in;
+
+}
+
+.connect-1:hover::before{
+  transform: scaleX(1);
+  transform-origin:  top;
+  background-image: url("https://wallpaperaccess.com/full/329006.jpg");
+  background-size: contain;
+  opacity: 0.8;
+}
+.heading-connect{
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+  min-height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.connect .email{
+  bottom: -90px;
+  position: relative;
+  color:black;
+  font-size: 25px;
+}
+
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
